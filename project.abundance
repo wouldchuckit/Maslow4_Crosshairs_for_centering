@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10,
-      "currentEquation": "10"
+      "ioValue": 10
     },
     {
       "name": "SledCenterHole",
@@ -20,8 +19,7 @@
     },
     {
       "name": "CenterHole",
-      "ioValue": 15,
-      "currentEquation": "15"
+      "ioValue": 15
     },
     {
       "name": "BitDiameter",
@@ -33,13 +31,11 @@
     },
     {
       "name": "BoltHeadDiameter",
-      "ioValue": 6.6,
-      "currentEquation": "6.6"
+      "ioValue": 6.6
     },
     {
       "name": "BoltHeadHeight",
-      "ioValue": 4,
-      "currentEquation": "4"
+      "ioValue": 4
     },
     {
       "name": "MirrorMount",
@@ -47,8 +43,7 @@
     },
     {
       "name": "MirrorAngle",
-      "ioValue": 60,
-      "currentEquation": "60"
+      "ioValue": 60
     }
   ],
   "topLevel": true,
@@ -68,21 +63,21 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.15217391304347827,
+      "y": 0.1,
       "uniqueID": "id-4",
       "name": "WoodThick"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.21217391304347827,
+      "y": 0.16,
       "uniqueID": "id-7",
       "name": "SledCenterHole"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.27217391304347827,
+      "y": 0.22,
       "uniqueID": "id-10",
       "name": "DustCoverHole"
     },
@@ -113,7 +108,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.33217391304347826,
+      "y": 0.28,
       "uniqueID": "id-19",
       "name": "CenterHole"
     },
@@ -164,14 +159,14 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.39217391304347826,
+      "y": 0.34,
       "uniqueID": "id-41",
       "name": "BitDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.45410628019323673,
+      "y": 0.4,
       "uniqueID": "id-44",
       "name": "RodDiameter"
     },
@@ -486,7 +481,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.5096618357487922,
+      "y": 0.46,
       "uniqueID": "id-134",
       "name": "BoltHeadDiameter"
     },
@@ -657,7 +652,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.5579710144927537,
+      "y": 0.52,
       "uniqueID": "id-178",
       "name": "BoltHeadHeight"
     },
@@ -728,14 +723,14 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.6159420289855072,
+      "y": 0.5800000000000001,
       "uniqueID": "id-197",
       "name": "MirrorMount"
     },
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.6759420289855071,
+      "y": 0.6400000000000001,
       "uniqueID": "id-200",
       "name": "MirrorAngle"
     },
@@ -949,8 +944,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": -90,
-          "currentEquation": "-90"
+          "ioValue": -90
         },
         {
           "name": "z-axis degrees",
@@ -1035,7 +1029,7 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.9114583333333333,
+      "x": 0.9093749999999999,
       "y": 0.20772946859903382,
       "uniqueID": "id-283",
       "name": "Cut Layout",
@@ -1046,11 +1040,11 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 2438
+          "ioValue": 200
         },
         {
           "name": "Sheet Height",
-          "ioValue": 1219
+          "ioValue": 100
         },
         {
           "name": "Part Padding",
@@ -1058,8 +1052,7 @@
         },
         {
           "name": "Orientations",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         }
       ],
       "placements": [
