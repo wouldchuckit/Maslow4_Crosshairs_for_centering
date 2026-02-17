@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10
+      "ioValue": 0,
+      "currentEquation": "0"
     },
     {
       "name": "SledCenterHole",
@@ -402,7 +403,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 0
         }
       ]
     },
@@ -418,7 +419,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 0
         }
       ]
     },
@@ -442,7 +443,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 10
+          "ioValue": 0
         }
       ]
     },
@@ -658,8 +659,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5942708333333333,
-      "y": 0.7318840579710144,
+      "x": 0.6395833333333333,
+      "y": 0.678743961352657,
       "uniqueID": "id-181",
       "ioValues": [
         {
@@ -838,7 +839,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 0
         }
       ]
     },
@@ -886,7 +887,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 46.7
+          "ioValue": 36.7
         }
       ]
     },
@@ -899,7 +900,7 @@
       "ioValues": [
         {
           "name": "w",
-          "ioValue": 10
+          "ioValue": 0
         },
         {
           "name": "h",
@@ -964,7 +965,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 28.35
+          "ioValue": 18.35
         },
         {
           "name": "yDist",
@@ -972,7 +973,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 16
+          "ioValue": -4
         }
       ]
     },
@@ -985,11 +986,11 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 46.7
+          "ioValue": 36.7
         },
         {
           "name": "w",
-          "ioValue": 10
+          "ioValue": 0
         }
       ],
       "currentEquation": "x/2 + w/2"
@@ -1003,7 +1004,7 @@
       "ioValues": [
         {
           "name": "w",
-          "ioValue": 10
+          "ioValue": 0
         },
         {
           "name": "bh",
@@ -1040,7 +1041,8 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 200
+          "ioValue": 200,
+          "currentEquation": "200"
         },
         {
           "name": "Sheet Height",
@@ -1156,6 +1158,31 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Maslow4_Crosshairs_for_centering"
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5947916666666666,
+      "y": 0.7294685990338164,
+      "uniqueID": "id-514",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 45
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1472,7 +1499,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-144",
-      "ap2ID": "id-181"
+      "ap2ID": "id-514"
     },
     {
       "ap2Name": "height",
@@ -1638,6 +1665,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-283",
       "ap2ID": "id-290"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-514",
+      "ap2ID": "id-181"
     }
   ],
   "unitsKey": "MM",
