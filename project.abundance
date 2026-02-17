@@ -40,6 +40,15 @@
       "name": "BoltHeadHeight",
       "ioValue": 4,
       "currentEquation": "4"
+    },
+    {
+      "name": "MirrorMount",
+      "ioValue": 30
+    },
+    {
+      "name": "MirrorAngle",
+      "ioValue": 60,
+      "currentEquation": "60"
     }
   ],
   "topLevel": true,
@@ -591,8 +600,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.4026041666666667,
-      "y": 0.7632850241545893,
+      "x": 0.4171875,
+      "y": 0.7777777777777777,
       "uniqueID": "id-142",
       "name": "x/4 + y/4",
       "ioValues": [
@@ -609,7 +618,7 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.40208333333333335,
+      "x": 0.4161458333333333,
       "y": 0.8888888888888888,
       "uniqueID": "id-143",
       "name": "-w",
@@ -698,17 +707,71 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.7442708333333333,
-      "y": 0.3961352657004831,
+      "x": 0.6833333333333333,
+      "y": 0.7729468599033816,
       "uniqueID": "id-193",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 30
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 30
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.6159420289855072,
+      "uniqueID": "id-197",
+      "name": "MirrorMount"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0165,
+      "y": 0.6759420289855071,
+      "uniqueID": "id-200",
+      "name": "MirrorAngle"
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.6869791666666667,
+      "y": 0.9130434782608695,
+      "uniqueID": "id-203",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 60
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.7390625,
+      "y": 0.8405797101449275,
+      "uniqueID": "id-209",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     }
@@ -1013,6 +1076,36 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-189",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-193",
+      "ap2ID": "id-203"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-193",
+      "ap2ID": "id-209"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-197",
+      "ap2ID": "id-193"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-197",
+      "ap2ID": "id-193"
+    },
+    {
+      "ap2Name": "z-axis degrees",
+      "ap1ID": "id-200",
+      "ap2ID": "id-203"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-203",
+      "ap2ID": "id-209"
     }
   ],
   "unitsKey": "MM",
