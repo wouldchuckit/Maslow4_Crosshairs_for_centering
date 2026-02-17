@@ -10,11 +10,7 @@
 
 It would need four 1/8 in bolts and nuts, a bit of black thread to lace through the holes that the bolts don't go in to make two crosshairs, one on top and one on the bottom and then a small mirror to glue into the angled pieces so that you could see down through the hole. 
 
-You could probably take the bolts out after you had lined everything up and just glue the two circles together.  
-
-![readme](/readmeid-281.svg?v=6ovjtk)
-
-
+You could probably take the bolts out after you had lined everything up and just glue the two circles together. 
 
 
 
