@@ -893,17 +893,25 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.6432291666666666,
-      "y": 0.429951690821256,
+      "x": 0.6692708333333334,
+      "y": 0.6642512077294687,
       "uniqueID": "id-243",
-      "name": "2*z",
+      "name": "w +2* h + 2d",
       "ioValues": [
         {
-          "name": "z",
+          "name": "w",
+          "ioValue": 10
+        },
+        {
+          "name": "h",
+          "ioValue": 1
+        },
+        {
+          "name": "d",
           "ioValue": 1
         }
       ],
-      "currentEquation": "2*z"
+      "currentEquation": "w +2* h + 2d"
     }
   ],
   "allConnectors": [
@@ -926,6 +934,11 @@
       "ap2Name": "height",
       "ap1ID": "id-4",
       "ap2ID": "id-227"
+    },
+    {
+      "ap2Name": "w",
+      "ap1ID": "id-4",
+      "ap2ID": "id-243"
     },
     {
       "ap2Name": "diameter",
