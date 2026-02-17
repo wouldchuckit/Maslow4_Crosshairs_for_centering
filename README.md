@@ -8,7 +8,9 @@
 
  This makes a little mirror holder and cross hairs that could be dropped into the central hole of the maslow4 to center the maslow4 on a particular registration mark. 
 
-It would need four 1/8 in bolts and nuts, a bit of black thread to lace through the holes that the bolts don't go in to make two crosshairs, one on top and one on the bottom and then a small mirror to glue into the angled pieces so that you could see down through the hole. You could probably take the bolts out after you had lined everything up and just glue the two circles together.  
+It would need four 1/8 in bolts and nuts, a bit of black thread to lace through the holes that the bolts don't go in to make two crosshairs, one on top and one on the bottom and then a small mirror to glue into the angled pieces so that you could see down through the hole. 
+
+You could probably take the bolts out after you had lined everything up and just glue the two circles together.  
 
 ![readme](/readmeid-281.svg?v=6ovjtk)
 

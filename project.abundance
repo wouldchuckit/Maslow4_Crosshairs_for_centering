@@ -1021,7 +1021,7 @@
     {
       "atomType": "Readme",
       "x": 0.5583333333333333,
-      "y": 0.06280193236714976,
+      "y": 0.0966183574879227,
       "uniqueID": "id-281",
       "name": "README",
       "ioValues": [
@@ -1030,8 +1030,139 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "This makes a little mirror holder and cross hairs that could be dropped into the central hole of the maslow4 to center the maslow4 on a particular registration mark. \n\nIt would need four 1/8 in bolts and nuts, a bit of black thread to lace through the holes that the bolts don't go in to make two crosshairs, one on top and one on the bottom and then a small mirror to glue into the angled pieces so that you could see down through the hole. You could probably take the bolts out after you had lined everything up and just glue the two circles together. ",
+      "readMeText": "This makes a little mirror holder and cross hairs that could be dropped into the central hole of the maslow4 to center the maslow4 on a particular registration mark. \n\nIt would need four 1/8 in bolts and nuts, a bit of black thread to lace through the holes that the bolts don't go in to make two crosshairs, one on top and one on the bottom and then a small mirror to glue into the angled pieces so that you could see down through the hole. \n\nYou could probably take the bolts out after you had lined everything up and just glue the two circles together. ",
       "global": true
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.7859375,
+      "y": 0.24879227053140096,
+      "uniqueID": "id-283",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 1,
+            "rotate": 180,
+            "translate": {
+              "x": 27.665798496683763,
+              "y": 27.665798496683756
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 180,
+            "translate": {
+              "x": 21.2251606,
+              "y": 76.06860019999999
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 360,
+            "translate": {
+              "x": 20.2000000243401,
+              "y": 117.30147279999998
+            }
+          },
+          {
+            "id": 3,
+            "rotate": 180,
+            "translate": {
+              "x": 26.07066810463448,
+              "y": 155.33604230451306
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.86875,
+      "y": 0.3623188405797102,
+      "uniqueID": "id-290",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_Crosshairs_for_centering",
+          "currentEquation": "Maslow4_Crosshairs_for_centering"
+        }
+      ],
+      "partName": "Maslow4_Crosshairs_for_centering",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8713541666666667,
+      "y": 0.2222222222222222,
+      "uniqueID": "id-298",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_Crosshairs_for_centering",
+          "currentEquation": "Maslow4_Crosshairs_for_centering"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Maslow4_Crosshairs_for_centering"
     }
   ],
   "allConnectors": [
@@ -1377,6 +1508,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-189",
+      "ap2ID": "id-283"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-193",
       "ap2ID": "id-203"
     },
@@ -1494,6 +1630,16 @@
       "ap2Name": "zDist",
       "ap1ID": "id-273",
       "ap2ID": "id-262"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-283",
+      "ap2ID": "id-298"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-283",
+      "ap2ID": "id-290"
     }
   ],
   "unitsKey": "MM",
