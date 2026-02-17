@@ -111,22 +111,6 @@
       ]
     },
     {
-      "atomType": "Extrude",
-      "x": 0.3411458333333333,
-      "y": 0.20531400966183577,
-      "uniqueID": "id-25",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 19.05
-        }
-      ]
-    },
-    {
       "atomType": "Difference",
       "x": 0.22812500000000002,
       "y": 0.2391304347826087,
@@ -159,22 +143,6 @@
       ]
     },
     {
-      "atomType": "Extrude",
-      "x": 0.34062499999999996,
-      "y": 0.3647342995169082,
-      "uniqueID": "id-37",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 19.05
-        }
-      ]
-    },
-    {
       "atomType": "Input",
       "x": 0.0165,
       "y": 0.39217391304347826,
@@ -202,8 +170,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2765625,
-      "y": 0.5144927536231884,
+      "x": 0.2791666666666667,
+      "y": 0.5,
       "uniqueID": "id-50",
       "ioValues": [
         {
@@ -212,7 +180,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 11.75
         },
         {
           "name": "yDist",
@@ -226,8 +194,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2786458333333333,
-      "y": 0.6400966183574879,
+      "x": 0.27708333333333335,
+      "y": 0.6207729468599034,
       "uniqueID": "id-56",
       "ioValues": [
         {
@@ -236,7 +204,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -11.75
         },
         {
           "name": "yDist",
@@ -264,7 +232,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 11.75
         },
         {
           "name": "zDist",
@@ -274,8 +242,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.27760416666666665,
-      "y": 0.9033816425120773,
+      "x": 0.27708333333333335,
+      "y": 0.9130434782608695,
       "uniqueID": "id-68",
       "ioValues": [
         {
@@ -288,7 +256,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -11.75
         },
         {
           "name": "zDist",
@@ -298,10 +266,10 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.1,
-      "y": 0.8115942028985507,
+      "x": 0.10989583333333333,
+      "y": 0.8164251207729468,
       "uniqueID": "id-74",
-      "name": "x - y",
+      "name": "x/4 + y/4",
       "ioValues": [
         {
           "name": "x",
@@ -312,20 +280,80 @@
           "ioValue": 15
         }
       ],
-      "currentEquation": "x - y"
+      "currentEquation": "x/4 + y/4"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.096875,
+      "y": 0.9347826086956522,
+      "uniqueID": "id-78",
+      "name": "-w",
+      "ioValues": [
+        {
+          "name": "w",
+          "ioValue": 11.75
+        }
+      ],
+      "currentEquation": "-w"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.36614583333333334,
+      "y": 0.678743961352657,
+      "uniqueID": "id-83",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.409375,
+      "y": 0.17391304347826086,
+      "uniqueID": "id-90",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.40989583333333335,
+      "y": 0.3115942028985507,
+      "uniqueID": "id-94",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "height",
-      "ap1ID": "id-4",
-      "ap2ID": "id-25"
-    },
-    {
-      "ap2Name": "height",
-      "ap1ID": "id-4",
-      "ap2ID": "id-37"
-    },
     {
       "ap2Name": "diameter",
       "ap1ID": "id-7",
@@ -372,14 +400,14 @@
       "ap2ID": "id-33"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "geometry1",
       "ap1ID": "id-29",
-      "ap2ID": "id-25"
+      "ap2ID": "id-90"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "geometry1",
       "ap1ID": "id-33",
-      "ap2ID": "id-37"
+      "ap2ID": "id-94"
     },
     {
       "ap2Name": "diameter",
@@ -405,6 +433,61 @@
       "ap2Name": "geometry",
       "ap1ID": "id-47",
       "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-50",
+      "ap2ID": "id-83"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-56",
+      "ap2ID": "id-83"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-62",
+      "ap2ID": "id-83"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-68",
+      "ap2ID": "id-83"
+    },
+    {
+      "ap2Name": "w",
+      "ap1ID": "id-74",
+      "ap2ID": "id-78"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-74",
+      "ap2ID": "id-50"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-74",
+      "ap2ID": "id-62"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-78",
+      "ap2ID": "id-56"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-78",
+      "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-83",
+      "ap2ID": "id-90"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-83",
+      "ap2ID": "id-94"
     }
   ],
   "unitsKey": "MM",
