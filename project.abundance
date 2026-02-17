@@ -919,8 +919,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7817708333333333,
-      "y": 0.5,
+      "x": 0.78125,
+      "y": 0.5217391304347826,
       "uniqueID": "id-251",
       "ioValues": [
         {
@@ -935,8 +935,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.8333333333333334,
-      "y": 0.5,
+      "x": 0.8296875,
+      "y": 0.536231884057971,
       "uniqueID": "id-256",
       "ioValues": [
         {
@@ -960,8 +960,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.9119791666666668,
-      "y": 0.5024154589371981,
+      "x": 0.9041666666666666,
+      "y": 0.5241545893719807,
       "uniqueID": "id-262",
       "ioValues": [
         {
@@ -984,8 +984,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.9114583333333333,
-      "y": 0.6304347826086957,
+      "x": 0.9052083333333334,
+      "y": 0.6400966183574879,
       "uniqueID": "id-268",
       "name": "x/2 + w/2",
       "ioValues": [
@@ -1002,8 +1002,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.9140624999999999,
-      "y": 0.7318840579710144,
+      "x": 0.9072916666666667,
+      "y": 0.7415458937198068,
       "uniqueID": "id-273",
       "name": "2*w - bh",
       "ioValues": [
@@ -1017,6 +1017,21 @@
         }
       ],
       "currentEquation": "2*w - bh"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.5583333333333333,
+      "y": 0.06280193236714976,
+      "uniqueID": "id-281",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "This makes a little mirror holder and cross hairs that could be dropped into the central hole of the maslow4 to center the maslow4 on a particular registration mark. \n\nIt would need four 1/8 in bolts and nuts, a bit of black thread to lace through the holes that the bolts don't go in to make two crosshairs, one on top and one on the bottom and then a small mirror to glue into the angled pieces so that you could see down through the hole. You could probably take the bolts out after you had lined everything up and just glue the two circles together. ",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -1354,6 +1369,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-189",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-189",
+      "ap2ID": "id-281"
     },
     {
       "ap2Name": "geometry",
