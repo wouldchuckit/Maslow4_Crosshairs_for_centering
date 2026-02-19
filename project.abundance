@@ -7,13 +7,12 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 19.05,
-      "currentEquation": "19.05"
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "SledCenterHole",
-      "ioValue": 32,
-      "currentEquation": "32"
+      "ioValue": 32
     },
     {
       "name": "DustCoverHole",
@@ -404,7 +403,7 @@
         },
         {
           "name": "height",
-          "ioValue": 19.05
+          "ioValue": 10
         }
       ]
     },
@@ -420,7 +419,7 @@
         },
         {
           "name": "height",
-          "ioValue": 19.05
+          "ioValue": 10
         }
       ]
     },
@@ -444,7 +443,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 19.05
+          "ioValue": 10
         }
       ]
     },
@@ -840,7 +839,7 @@
         },
         {
           "name": "height",
-          "ioValue": 19.05
+          "ioValue": 10
         }
       ]
     },
@@ -888,7 +887,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 55.75
+          "ioValue": 46.7
         }
       ]
     },
@@ -901,7 +900,7 @@
       "ioValues": [
         {
           "name": "w",
-          "ioValue": 19.05
+          "ioValue": 10
         },
         {
           "name": "h",
@@ -966,7 +965,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 37.4
+          "ioValue": 28.35
         },
         {
           "name": "yDist",
@@ -974,7 +973,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 34.1
+          "ioValue": 16
         }
       ]
     },
@@ -987,11 +986,11 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 55.75
+          "ioValue": 46.7
         },
         {
           "name": "w",
-          "ioValue": 19.05
+          "ioValue": 10
         }
       ],
       "currentEquation": "x/2 + w/2"
@@ -1005,7 +1004,7 @@
       "ioValues": [
         {
           "name": "w",
-          "ioValue": 19.05
+          "ioValue": 10
         },
         {
           "name": "bh",
