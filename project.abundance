@@ -7,12 +7,13 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 0,
-      "currentEquation": "0"
+      "ioValue": 19.05,
+      "currentEquation": "19.05"
     },
     {
       "name": "SledCenterHole",
-      "ioValue": 32
+      "ioValue": 32,
+      "currentEquation": "32"
     },
     {
       "name": "DustCoverHole",
@@ -63,22 +64,22 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.1,
+      "x": 0.01815,
+      "y": 0.10999999999999999,
       "uniqueID": "id-4",
       "name": "WoodThick"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.16,
+      "x": 0.01815,
+      "y": 0.176,
       "uniqueID": "id-7",
       "name": "SledCenterHole"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.22,
+      "x": 0.01815,
+      "y": 0.242,
       "uniqueID": "id-10",
       "name": "DustCoverHole"
     },
@@ -108,8 +109,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.28,
+      "x": 0.01815,
+      "y": 0.308,
       "uniqueID": "id-19",
       "name": "CenterHole"
     },
@@ -159,15 +160,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.34,
+      "x": 0.01815,
+      "y": 0.374,
       "uniqueID": "id-41",
       "name": "BitDiameter"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.4,
+      "x": 0.01815,
+      "y": 0.44,
       "uniqueID": "id-44",
       "name": "RodDiameter"
     },
@@ -403,7 +404,7 @@
         },
         {
           "name": "height",
-          "ioValue": 0
+          "ioValue": 19.05
         }
       ]
     },
@@ -419,7 +420,7 @@
         },
         {
           "name": "height",
-          "ioValue": 0
+          "ioValue": 19.05
         }
       ]
     },
@@ -443,7 +444,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 19.05
         }
       ]
     },
@@ -481,8 +482,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.46,
+      "x": 0.01815,
+      "y": 0.506,
       "uniqueID": "id-134",
       "name": "BoltHeadDiameter"
     },
@@ -652,8 +653,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.52,
+      "x": 0.01815,
+      "y": 0.5720000000000001,
       "uniqueID": "id-178",
       "name": "BoltHeadHeight"
     },
@@ -723,15 +724,15 @@
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.5800000000000001,
+      "x": 0.01815,
+      "y": 0.6380000000000001,
       "uniqueID": "id-197",
       "name": "MirrorMount"
     },
     {
       "atomType": "Input",
-      "x": 0.0165,
-      "y": 0.6400000000000001,
+      "x": 0.01815,
+      "y": 0.7040000000000002,
       "uniqueID": "id-200",
       "name": "MirrorAngle"
     },
@@ -839,7 +840,7 @@
         },
         {
           "name": "height",
-          "ioValue": 0
+          "ioValue": 19.05
         }
       ]
     },
@@ -887,7 +888,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 36.7
+          "ioValue": 55.75
         }
       ]
     },
@@ -900,7 +901,7 @@
       "ioValues": [
         {
           "name": "w",
-          "ioValue": 0
+          "ioValue": 19.05
         },
         {
           "name": "h",
@@ -965,7 +966,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 18.35
+          "ioValue": 37.4
         },
         {
           "name": "yDist",
@@ -973,7 +974,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": -4
+          "ioValue": 34.1
         }
       ]
     },
@@ -986,11 +987,11 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 36.7
+          "ioValue": 55.75
         },
         {
           "name": "w",
-          "ioValue": 0
+          "ioValue": 19.05
         }
       ],
       "currentEquation": "x/2 + w/2"
@@ -1004,7 +1005,7 @@
       "ioValues": [
         {
           "name": "w",
-          "ioValue": 0
+          "ioValue": 19.05
         },
         {
           "name": "bh",
@@ -1041,8 +1042,7 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 200
         },
         {
           "name": "Sheet Height",
@@ -1171,8 +1171,7 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "y-axis degrees",
