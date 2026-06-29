@@ -4,6 +4,20 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **WoodThick** (number)
+- **SledCenterHole** (number)
+- **DustCoverHole** (number)
+- **CenterHole** (number)
+- **BitDiameter** (number)
+- **RodDiameter** (number)
+- **BoltHeadDiameter** (number)
+- **BoltHeadHeight** (number)
+- **MirrorMount** (number)
+- **MirrorAngle** (number)
+
+
 
 
  This makes a little mirror holder and cross hairs that could be dropped into the central hole of the maslow4 to center the maslow4 on a particular registration mark. 
@@ -12,7 +26,7 @@ It would need four 1/8 in bolts and nuts, a bit of black thread to lace through 
 
 You could probably take the bolts out after you had lined everything up and just glue the two circles together.  
 
-![readme](/readmeid-281.svg?v=lrmu98)
+![readme](/readmeid-281.svg?v=nx9znqi)
 
 
 
