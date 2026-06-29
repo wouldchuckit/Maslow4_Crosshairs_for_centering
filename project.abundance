@@ -15,7 +15,8 @@
     },
     {
       "name": "DustCoverHole",
-      "ioValue": 45
+      "ioValue": 45,
+      "currentEquation": "45"
     },
     {
       "name": "CenterHole",
