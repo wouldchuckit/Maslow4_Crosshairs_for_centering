@@ -15,8 +15,7 @@
     },
     {
       "name": "DustCoverHole",
-      "ioValue": 45,
-      "currentEquation": "45"
+      "ioValue": 45
     },
     {
       "name": "CenterHole",
@@ -1041,11 +1040,11 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 200
+          "ioValue": 400
         },
         {
           "name": "Sheet Height",
-          "ioValue": 100
+          "ioValue": 400
         },
         {
           "name": "Part Padding",
@@ -1053,41 +1052,41 @@
         },
         {
           "name": "Orientations",
-          "ioValue": 2
+          "ioValue": 12
         }
       ],
       "placements": [
         [
           {
-            "id": 1,
-            "rotate": 180,
-            "translate": {
-              "x": 27.665798496683763,
-              "y": 27.665798496683756
-            }
-          },
-          {
             "id": 0,
-            "rotate": 180,
+            "rotate": 300,
             "translate": {
-              "x": 21.2251606,
-              "y": 76.06860019999999
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 360,
-            "translate": {
-              "x": 20.2000000243401,
-              "y": 117.30147279999998
+              "x": 21.658098220825195,
+              "y": 21.658098220825195
             }
           },
           {
             "id": 3,
-            "rotate": 180,
+            "rotate": 0,
             "translate": {
-              "x": 26.07066810463448,
-              "y": 155.33604230451306
+              "x": 33.79999923706055,
+              "y": 62.790000915527344
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 60,
+            "translate": {
+              "x": 48.06864929199219,
+              "y": 63.315643310546875
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 210,
+            "translate": {
+              "x": 91.18228149414062,
+              "y": 32.8715934753418
             }
           }
         ]
