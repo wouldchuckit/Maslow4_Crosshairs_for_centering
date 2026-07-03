@@ -1059,34 +1059,34 @@
         [
           {
             "id": 0,
-            "rotate": 300,
+            "rotate": 90,
             "translate": {
-              "x": 21.658098220825195,
-              "y": 21.658098220825195
+              "x": 38.22999954223633,
+              "y": 5.219999313354492
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 180,
+            "translate": {
+              "x": 84.2300033569336,
+              "y": 93.06999969482422
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 120,
+            "translate": {
+              "x": 122.75804138183594,
+              "y": -39.531124114990234
             }
           },
           {
             "id": 3,
             "rotate": 0,
             "translate": {
-              "x": 33.79999923706055,
-              "y": 62.790000915527344
-            }
-          },
-          {
-            "id": 1,
-            "rotate": 60,
-            "translate": {
-              "x": 48.06864929199219,
-              "y": 63.315643310546875
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 210,
-            "translate": {
-              "x": 91.18228149414062,
-              "y": 32.8715934753418
+              "x": -50.349998474121094,
+              "y": 66.51000213623047
             }
           }
         ]
@@ -1210,6 +1210,34 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Maslow4_Crosshairs_for_centering"
+    },
+    {
+      "atomType": "CutOrient",
+      "x": 0.8640776699029127,
+      "y": 0.3325635103926097,
+      "uniqueID": "id-960",
+      "name": "Cut Orient",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "orientations": [
+        {
+          "downwardFaceIndex": 1
+        },
+        {
+          "downwardFaceIndex": 1
+        },
+        {
+          "downwardFaceIndex": 7
+        },
+        {
+          "downwardFaceIndex": 6
+        }
+      ],
+      "orientationsForHashed": "abedcd3c"
     }
   ],
   "allConnectors": [
@@ -1561,12 +1589,12 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-189",
-      "ap2ID": "id-283"
+      "ap2ID": "id-735"
     },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-189",
-      "ap2ID": "id-735"
+      "ap2ID": "id-960"
     },
     {
       "ap2Name": "geometry",
@@ -1702,6 +1730,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-514",
       "ap2ID": "id-181"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-960",
+      "ap2ID": "id-283"
     }
   ],
   "unitsKey": "MM",
