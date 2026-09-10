@@ -2,7 +2,7 @@
 
 # Maslow4_Crosshairs_for_centering
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
@@ -26,7 +26,7 @@ It would need four 1/8 in bolts and nuts, a bit of black thread to lace through 
 
 You could probably take the bolts out after you had lined everything up and just glue the two circles together.  
 
-![readme](/readmeid-281.svg?v=nq4bsov)
+![readme](/readmeid-281.svg?v=noc76hn)
 
 
 
